@@ -1,10 +1,10 @@
 require 'formula'
 
-class GccArmNoneEabi49 < Formula
+class GccArmNoneEabi48 < Formula
   homepage 'https://launchpad.net/gcc-arm-embdded'
-  version '20150609'
-  url 'https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-mac.tar.bz2'
-  sha1 '7f2d8c3644cd76da1b78d17a0770c8c0efbff957'
+  version '20140805'
+  url 'https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update/+download/gcc-arm-none-eabi-4_8-2014q3-20140805-mac.tar.bz2'
+  sha1 '1ca44d778fc3b4799d76c98345ed7826'
 
   def install 
     ohai 'Copying binaries...'
